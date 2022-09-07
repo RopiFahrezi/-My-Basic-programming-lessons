@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+/* bintang ini fungsinya untuk memanggil satu folder yg kita buat */
+*{
+    font-family: 'Poppins';
+    padding: 0;
+    margin: 0;
+    /* scroll behavior untuk navigasi ke nav lain sesuai value */
+    scroll-behavior: smooth;
+}
+
+.name {
+    color: aliceblue;
+}
+
+.grupA {
+    width: 100%;
+}
+
+nav{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    padding: 0 8%;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+nav ul li a:hover{
+    color: blueviolet;
+    transition: 0.5s;
+}
+
+.content img{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.content h1{
+    color: aliceblue;
+    position: absolute;
+    font-size: 80px;
+    top: 25rem;
+    left: 8%;
+    transform: translateY(-50%);
+    /* transform translateY(-50%) */
+}
+
+.content h3{
+    position: absolute;
+    font-size: 30px;
+    top: 21rem;
+    left: 8%;
+    transform: translateY(-50%);
+    /* transform translateY(-50%) */
+}
+
+.content h2{
+    position: absolute;
+    font-size: 40px;
+    top: 29rem;
+    left: 8%;
+    transform: translateY(-50%);
+    /* transform translateY(-50%) */
+}
+
+.about{
+    width: 100%;
+    background-color: black;
+    height: 850px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-img{
+    width: 430px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.about-text{
+    color: aliceblue;
+    font-size: 25px;
+    width: 800px;
+}
+
+.main{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
